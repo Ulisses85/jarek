@@ -91,17 +91,6 @@
   </section>
 
 
-  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
-
-  <!-- Tap Target Structure -->
-  <div class="tap-target" data-target="menu">
-    <div class="tap-target-content">
-      <h5>Title</h5>
-      <p>A bunch of text</p>
-    </div>
-  </div>
-
-
 
 
   <!-- Section: Icon Boxes -->
@@ -139,9 +128,7 @@
       <div class="row">
         <h4 class="center">
           <span class="teal-text">Testimonials</span>
-           <a class="btn-floating btn-large waves-effect waves-light teal" href="https://g.co/kgs/od9vBg"><i class="material-icons">edit</i></a>
         </h4>
-
           <div class="card-panel">
             <div class="card-image">
             </div>
@@ -753,7 +740,7 @@ Ceny usług są cenami brutto za robociznę bez materiałów.
 
       $("#google-reviews").googlePlaces({
             render:["reviews"]
-         ,  placeId: 'ChIJCxgYoeyxe0gRofVehqpFmnM' //Find placeID @: https://developers.google.com/places/place-id
+         ,  placeId: 'ChIJz6cNql-xe0gRLOqx4m3u9KQ' //Find placeID @: https://developers.google.com/places/place-id
          ,  max_rows:3
 
       });
@@ -792,7 +779,10 @@ Ceny usług są cenami brutto za robociznę bez materiałów.
       // Init Scrollspy
       $('.scrollspy').scrollSpy();
 
-      $('.tap-target').tapTarget();
+      $('.action-btn').floatingActionButton({
+        toolbarEnabled: true
+      });
+
     });
   </script>
 </body>
