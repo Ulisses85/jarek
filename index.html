@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
   <link type="text/css" rel="stylesheet" href="css/main.css" />
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <!--Let browser know website is optimized for mobile-->
@@ -90,6 +91,18 @@
   </section>
 
 
+  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
+
+  <!-- Tap Target Structure -->
+  <div class="tap-target" data-target="menu">
+    <div class="tap-target-content">
+      <h5>Title</h5>
+      <p>A bunch of text</p>
+    </div>
+  </div>
+
+
+
 
   <!-- Section: Icon Boxes -->
   <section class="section section-icons grey lighten-4 center">
@@ -122,46 +135,20 @@
 
   <!-- Section: Tesstimonials -->
   <section id="testimonials" class="section section-testimonials scrollspy">
-    <div class="container">
+    <div  class="container">
       <div class="row">
         <h4 class="center">
-          <span class="teal-text">Testimonials</span></h4>
-        <div class="col s12 m4">
-          <div class="card">
+          <span class="teal-text">Testimonials</span>
+           <a class="btn-floating btn-large waves-effect waves-light teal" href="https://g.co/kgs/od9vBg"><i class="material-icons">edit</i></a>
+        </h4>
+
+          <div class="card-panel">
             <div class="card-image">
-              <img src="img/carousel1.jpg" alt="">
-              <span class="card-title grey">Mark</span>
             </div>
-            <div class="card-content">
-              <p>Some comment on the job
-              </p>
+            <div id="google-reviews" class="card-content">
+<div class="review-stars"><ul><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li><li><i class="star"></i></li></ul></div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/carousel1.jpg" alt="">
-              <span class="card-title grey">John</span>
-            </div>
-            <div class="card-content">
-              <p>Some comment on the job
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/carousel1.jpg" alt="">
-              <span class="card-title full grey">Joan</span>
-            </div>
-            <div class="card-content">
-              <p>Some comment on the job
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="row">
         <div class="col s12 center">
@@ -352,46 +339,356 @@ Ceny usług są cenami brutto za robociznę bez materiałów.
       </h4>
       <div class="row">
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/1.jpg"  alt="">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+<a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
         </div>
+
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/2.jpg" alt="">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
         </div>
+
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/3.jpg" alt="">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
         </div>
+
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/4.jpg" alt="">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col s12 m3">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
+        </div>
+
+        <div class="col s12 m3">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
+        </div>
+
+        <div class="col s12 m3">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
+        </div>
+
+        <div class="col s12 m3">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
         </div>
       </div>
 
       <div class="row">
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/5.jpg" alt="">
-        </div>
-        <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/6.jpg" alt="">
-        </div>
-        <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/7.jpg" alt="">
-        </div>
-        <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/8.jpg" alt="">
-        </div>
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
       </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
 
-      <div class="row">
-        <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/9.jpg" alt="">
+
+</div>
         </div>
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/10.jpg" alt="">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
         </div>
+
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/11.jpg" alt="">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
         </div>
+
         <div class="col s12 m3">
-          <img class="materialboxed responsive-img" src="img/12.jpg" alt="">
+    <div class="card  modal-trigger" href="#modal2">
+      <div class="card-image">
+        <img src="img/1.jpg">
+        <span class="card-title">London Job</span>
+        <a class="btn-floating halfway-fab waves-effect waves-light teal-text"><i class="material-icons">photo_camera</i></a>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div id="modal2" class="modal">
+               <div class="modal-content">
+                   <span class="card-title">London Job</span>
+                 <div class="card-content">
+                   <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                 </div>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/2.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/3.jpg"></a>
+<a class="carousel-item" href="#one!"><img src="img/4.jpg"></a>
+</div>
+</div>
+</div>
+
+
+</div>
         </div>
       </div>
     </div>
@@ -448,15 +745,28 @@ Ceny usług są cenami brutto za robociznę bez materiałów.
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAJSYzkyI7XuRB55VxpcwsizryiyMXYxhc&signed_in=true&libraries=places"></script>
+
   <script>
     $(document).ready(function () {
+
+      $("#google-reviews").googlePlaces({
+            render:["reviews"]
+         ,  placeId: 'ChIJCxgYoeyxe0gRofVehqpFmnM' //Find placeID @: https://developers.google.com/places/place-id
+         ,  max_rows:3
+
+      });
       // Init Side nav
       $('.button-collapse').sideNav();
-
       // Init modal1
       $('.modal').modal();
       $('#modal1').modal('open');
       $('#modal1').modal('close');
+
+
+      $('#modal2').modal('open');
+      $('#modal2').modal('close');
 
       // Init Slider
       $('.slider').slider({
@@ -466,16 +776,23 @@ Ceny usług są cenami brutto za robociznę bez materiałów.
         interval: 6000
       });
 
+      $('.carousel').carousel({
+      });
+
+      $('.carousel1').carousel({
+        numVisible: 2
+      });
+
+
       // Autocomplete
       $('.autocomplete').autocomplete({
         data: {
-
         }
       });
-
       // Init Scrollspy
       $('.scrollspy').scrollSpy();
 
+      $('.tap-target').tapTarget();
     });
   </script>
 </body>
